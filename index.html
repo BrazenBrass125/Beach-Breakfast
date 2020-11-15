@@ -2,9 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Hello world </title>
+    <title>Pick a number</title>
   </head>
   <body>
+<script>
+  //Such creativity, much wow
+  var correctNum = Math.floor(Math.random() * 10);
+  console.log(correctNum)
 
+  var number = prompt("Pick a number between 0 & 9")
+
+  if (number == correctNum)
+  {
+    document.write("<h1>Yes</h1>")
+  }
+  else
+  {
+    document.write("<h1>No</h1>")
+  }
+  </script>
   </body>
 </html>
